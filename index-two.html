@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    a:hover {
+      background-color: yellow;
+    }
+
+    .body-div {
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .top-background-image-div {
+      position:static;
+    }
+
+    .logo {
+      position: fixed;
+      top: 18px;
+      left: 38px;
+      text-align: left;
+      z-index:1;
+    }
+
+    .try-it-free {
+      position:absolute;
+      top: 38px;
+      right: 159px;
+      text-align: right;
+      z-index:1;
+      background-color: white;
+      padding: 15px;
+      border-radius: 25px;
+      text-decoration: none;
+      font size: 25px;
+      width: 120px;
+      height: 20px;
+      text-align: center;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: black;
+      box-shadow: 2px 2px black;
+    }
+
+    .first-container {
+      margin-left: 100px;
+      margin-top: 10px;
+      position: absolute;
+      z-index: 2;
+      top: 150px;
+      width: 43%;
+      text-align: left;
+    }
+
+    .opening-line {
+      z-index: 1;
+
+    }
+
+    .free-start {
+      position: absolute;
+      top: 225px;
+      left: 1px;
+      text-align: center;
+      z-index:1;
+      background-color: pink;
+      padding: 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font size: 60px;
+      width: 230px;
+      height: 20px;
+      font-weight: bolder;
+      font: white;
+      text-decoration: none;
+    }
+
+    .chat-image {
+      width: 600px;
+      position: absolute;
+      z-index:1;
+      top: 175px;
+      right: 100px;
+    }
+
+    .main-section {
+      padding: 30px;
+      margin: 30px;
+    }
+
+    .second-container {
+      width: 100%;
+      font-size: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding: 15px;
+      text-align: left;
+    }
+
+    .grow-together-image {
+      width: 500px;
+      float: right;
+      margin-left: 100px;
+    }
+
+    .third-container {
+        width: 100%;
+        font-size: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 15px;
+        text-align: right;
+      }
+
+      .flow-conv-image {
+        width: 500px;
+        float: right;
+        margin-right: 100px;
+      }
+
+      .fourth-container {
+        width: 100%;
+        font-size: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 15px;
+        text-align: left;
+      }
+
+      .your-users-image {
+        width: 500px;
+        float: right;
+        margin-left: 100px;
+      }
+
+      .ready-box {
+        text-align: center;
+        width: 37%;
+        font-size: 16px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 25px;
+        position: absolute;
+        margin-left: 32%;
+        margin-top: 90px;
+        border-radius: 15px;
+      }
+
+      .ready-anchor {
+        background-color: Pink;
+        border-radius: 25px;
+        padding: 15px;
+        width: 150px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-bottom: 100px;
+
+
+      }
+
+      .footer {
+        background-color: rgb(27, 148, 254);
+        width: 100%:
+        height: 500px;
+      }
+
+      .footer-text {
+        position: absolute;
+        top: 2725px;
+        left: 1px;
+        text-align: center;
+        z-index:1;s
+      }
+
+
+
+  </style>
+</head>
+<body>
+<div class="body-div">
+<div class="top-background-image-div">
+<img class="top-background-image" src="file:///F:/Coding/code/huddle-landing-page-945317-master/huddle-landing-page-945317-master/images/bg-hero-desktop.svg" alt="">
+<img class="logo" src="file:///F:/Coding/code/huddle-landing-page-945317-master/huddle-landing-page-945317-master/images/logo.svg" alt="">
+<a class="try-it-free" href="#">Try It Free</a>
+
+<img class="chat-image" src="file:///F:/Coding/code/huddle-landing-page-945317-master/huddle-landing-page-945317-master/images/illustration-mockups.svg" alt="">
+
+</div>
+
+  <div class="first-container">
+  <h1 class="opening-line">Build The Community<br>Your Fans Will Love</h1>
+  <h4>Huddle re-imagines the way we build communities. You have<br> a voice, but so does your audience.
+  Create connections with <br> your users as you engage in genuine discussion.</h4>
+  <a class="free-start" href="#">Get Started For Free</a>
+</div>
+
+<div class="main-section">
+
+<div class="second-container">
+  <table>
+    <tbody>
+      <tr>
+        <td><h1>Grow Together</h1>
+        <h4>  Generate meaningful discussions with your audience and <br> build a strong, loyal community.
+          Think of the insightful <br>conversations you miss out on with a feedback form.</h4></td>
+          <td>  <img class="grow-together-image" src="file:///F:/Coding/code/huddle-landing-page-945317-master/huddle-landing-page-945317-master/images/illustration-grow-together.svg" alt="">
+            </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+<br><br>
+
+<div class="third-container">
+  <table>
+    <tbody>
+      <tr>
+        <td>  <img class="flow-conv-image" src="file:///F:/Coding/code/huddle-landing-page-945317-master/huddle-landing-page-945317-master/images/illustration-flowing-conversation.svg" alt="">
+          </td>
+        <td><h1>Flowing Conversations</h1>
+        <h4> You wouldn't paginate a conversation in real life, so why do <br>it online? Our threads
+          have just-in-time loading for a more <br> natural flow.</h4></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+<br><br>
+  <div class="fourth-container">
+    <table>
+      <tbody>
+        <tr>
+          <td><h1>Your Users</h1>
+          <h4> It takes no time at all to integrate Huddle with your app's <br>authentication solution.
+          This means, once signed in to <br>your app, your users can start chatting immediately.</h4></td>
+            <td>  <img class="your-users-image" src="file:///F:/Coding/code/huddle-landing-page-945317-master/huddle-landing-page-945317-master/images/illustration-your-users.svg" alt="">
+              </td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</div>
+
+<br><br>
+
+<div class="ready-box">
+  <h4>Ready To Build Your Community?</h4>
+  <br>
+  <a class="ready-anchor" href="#">Get Started For Free</a>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<div class="footer">
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="footer-text">
+    <p>  Ready To Build Your Community?
+
+      Get Started For Free
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua
+
+      +1-543-123-4567
+      example@huddle.com
+
+      About Us
+      What We Do
+      FAQ
+
+      Career
+      Blog
+      Contact Us
+
+      &copy; Copyright 2018 Huddle. All rights reserved.</p>
+  </div>
+
+</div>
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Callum Crofts</a>.
+    </p>
+  </footer>
+  </div>
+</body>
+</html>
